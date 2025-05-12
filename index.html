@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda's Portfolio</title>
+    <meta name="description" content="Amanda's portfolio - Web Developer focused on elegant and user-friendly web experiences.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar glass-nav floating-nav">
+        <div class="nav-content">
+            <div class="nav-left">
+                <button class="hamburger" aria-label="Open menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#portfolio">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="nav-right">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="glass-card">
+        <div class="hero-bg-orbs"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="interactive-title">Hello, I'm Amanda</h1>
+                <p class="subtitle">Software Developer</p>
+                <p class="description">Crafting elegant digital experiences with purpose and precision.</p>
+            </div>
+            <img src="images/portfolioimage.png" alt="Portrait of Amanda" class="hero-image">
+        </div>
+    </section>
+
+    <main>
+        <section id="about" class="glass-card">
+            <div class="section-swirl"></div>
+            <h2>About</h2>
+            <div class="about-content">
+                <p>With a background in customer service, I learned early on the importance of empathy, clear communication, and understanding people's needs. Now, as a full-stack Software Developer, I bring these values into every project I work on.</p>
+                <img src="images/portfolioimage.png" alt="Amanda working at her desk">
+            </div>
+        </section>
+
+        <section id="skills" class="glass-card">
+            <div class="section-swirl"></div>
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Semantic markup</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Responsive design</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <p>Dynamic functionality</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Back-end development</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <p>Enterprise applications</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Django</h3>
+                    <p>Python framework</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-bootstrap"></i>
+                    <h3>Bootstrap</h3>
+                    <p>Responsive layouts</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <p>Front-end development</p>
+                </div>
+                <div class="fas fa-leaf skill-card">
+                    <h3>Spring</h3>
+                    <p>Java framework</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="glass-card">
+            <div class="section-swirl"></div>
+            <h2>Projects</h2>
+            <div class="portfolio-grid">
+                <a href="https://github.com/mandatory777/hobbyhotspot" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <img src="images/screenshot-2024-08-20-195043.png" alt="HobbyHotspot project">
+                    </div>
+                    <div class="project-info">
+                        <h3>HobbyHotspot</h3>
+                        <p>Platform connecting people with similar hobbies</p>
+                    </div>
+                </a>
+                <a href="https://github.com/mandatory777/goat-project" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <img src="images/shane.png" alt="G.O.A.T project">
+                    </div>
+                    <div class="project-info">
+                        <h3>G.O.A.T</h3>
+                        <p>HTML/CSS showcase project</p>
+                    </div>
+                </a>
+                <a href="https://jetrobertsbcca.github.io/animaladoption/" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <img src="images/adoption.png" alt="Paw Partners project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Paw Partners</h3>
+                        <p>React-based animal adoption platform</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact" class="glass-card">
+            <div class="section-swirl"></div>
+            <h2>Contact</h2>
+            <p>Let's work together</p>
+            <div class="contact-links">
+                <a href="mailto:andavis98@protonmail.com" class="contact-button">
+                    <i class="fas fa-envelope"></i>
+                    Email
+                </a>
+                <a href="https://www.linkedin.com/in/amanda-davis-7687b2221/" target="_blank" class="contact-button">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+                <a href="images/amanda-resume.pdf" target="_blank" class="contact-button">
+                    <i class="fas fa-file-alt"></i>
+                    Resume
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="footer-swirl"></div>
+        <p>&copy; 2025 Amanda Davis</p>
+    </footer>
+
+    <!-- Fortune Cookie Modal -->
+    <div id="fortune-modal" class="fortune-modal">
+        <div class="fortune-content">
+            <button class="close-fortune">×</button>
+            <div class="fortune-cookie">
+                <img src="images/fortune-cookie.png" alt="Fortune Cookie" class="cookie-image">
+            </div>
+            <div class="fortune-form">
+                <input type="text" id="name-input" placeholder="Enter your name" maxlength="20">
+                <button id="get-fortune">Get Your Fortune</button>
+            </div>
+            <div class="fortune-result">
+                <p id="fortune-text"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
